@@ -1,0 +1,6 @@
+package cakectf;
+
+message EncryptionKey {
+  uint magic = 1;
+  byte[] key = 2;
+}

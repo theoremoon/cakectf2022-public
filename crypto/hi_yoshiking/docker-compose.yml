@@ -1,0 +1,7 @@
+version: '3'
+services:
+  yo:
+    build: ./
+    ports:
+      - 10333:9999
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+---
+name: nimrev
+description: >
+  <p>Have you ever analysed programs written in languages other than C/C++?</p>
+flag: "CakeCTF{s0m3t1m3s_n0t_C}"
+author: ptr-yudai
+tags:
+  - rev
+  - warmup
+is_survey: false

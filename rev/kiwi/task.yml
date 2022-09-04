@@ -1,0 +1,12 @@
+---
+name: kiwi
+description: >
+  <p>A bird that doesn't fly is nothing but farm-raised chicken...?</p>
+  <code>nc {host} {port}</code>
+flag: "CakeCTF{w3_n33d_t0_pr3v3nt_Google_fr0m_st4nd4rd1z1ng_ev3ryth1ng}"
+author: ptr-yudai
+host: misc.2022.cakectf.com
+port: 10044
+tags:
+  - rev
+is_survey: false

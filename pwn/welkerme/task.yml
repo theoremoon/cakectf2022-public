@@ -1,0 +1,14 @@
+---
+name: welkerme
+description: >
+  <p>Introduction to Linux Kernel Exploit :)</p>
+  <code>nc {host} {port}</code><br>
+  <small>* There is a limit to the number of connections. Wait 5 minutes if you cannot connect.</small>
+flag: "CakeCTF{b4s1cs_0f_pr1v1l3g3_3sc4l4t10n!!}"
+author: ptr-yudai
+host: pwn2.2022.cakectf.com
+port: 9999
+tags:
+  - pwn
+  - warmup
+is_survey: false

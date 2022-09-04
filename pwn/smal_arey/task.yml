@@ -1,0 +1,12 @@
+---
+name: "smal arey"
+description: >
+  <p>Small array only!</p>
+  <code>nc {host} {port}</code>
+flag: "CakeCTF{PRE01-C. Use parentheses within macros around parameter names}"
+author: ptr-yudai
+host: pwn1.2022.cakectf.com
+port: 9002
+tags:
+  - pwn
+is_survey: false

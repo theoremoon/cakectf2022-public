@@ -1,0 +1,12 @@
+---
+name: CakeGEAR
+description: >
+  <p>Can you crack the <a href="http://{host}:{port}/" target="_blank">login portal</a> of CakeGEAR router?</p>
+flag: "CakeCTF{y0u_mu5t_c4st_2_STRING_b3f0r3_us1ng_sw1tch_1n_PHP}"
+author: ptr-yudai
+host: web1.2022.cakectf.com
+port: 8005
+tags:
+  - web
+  - warmup
+is_survey: false

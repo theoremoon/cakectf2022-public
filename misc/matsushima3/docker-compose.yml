@@ -1,0 +1,17 @@
+version: '3'
+services:
+  challenge:
+    build: ./distfiles/server
+    ports:
+      - "10011:8080"
+    links:
+      - redis
+    environment:
+      - UWSGI_INI=/home/ctf/uwsgi.ini
+      - LISTEN_PORT=8080
+      - FLAG="CakeCTF{INFAMOUS_LOGIC_BUG}"
+    restart: always
+
+  redis:
+    build: ./distfiles/redis
+    restart: always

@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dsa:
+    build: ./
+    ports:
+      - 10987:9999
+    restart: unless-stopped

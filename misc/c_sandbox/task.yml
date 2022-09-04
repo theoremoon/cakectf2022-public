@@ -1,0 +1,12 @@
+---
+name: C-Sandbox
+description: >
+  I designed a restricted C compiler!
+  <code>nc {host} {port}</code>
+flag: "CakeCTF{briI1ng_yoO0ur_oO0wn_gaA4dgeE3t!}"
+author: ptr-yudai
+host: misc.2022.cakectf.com
+port: 10099
+tags:
+  - misc
+is_survey: false

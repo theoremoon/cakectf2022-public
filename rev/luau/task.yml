@@ -1,0 +1,9 @@
+---
+name: luau
+description: >
+  <p>Aloha! This is a luau for reverse engineerers!</p>
+flag: "CakeCTF{w4n1w4n1_p4n1c_uh0uh0_g0ll1r4}"
+author: ptr-yudai
+tags:
+  - rev
+is_survey: false

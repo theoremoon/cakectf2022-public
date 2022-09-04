@@ -1,0 +1,11 @@
+---
+name: zundamon
+description: >
+  <p>I found a suspicious process named "zundamon" running on my computer. Can you investigate the communication logs to confirm that no information has been leaked?</p><br>
+  <p style="color:red">This program may harm your computer. Do not run it outside sandbox.</p>
+flag: "CakeCTF{b3_c4r3fuL_0f_m4l1c10us_k3yL0gg3r}"
+author: ptr-yudai
+tags:
+  - rev
+  - forensics
+is_survey: false

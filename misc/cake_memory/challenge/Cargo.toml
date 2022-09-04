@@ -1,0 +1,17 @@
+[package]
+name = "challenge"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+strip = true
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[dependencies]
+glam = "0.20.2"
+ggez = "0.8.0-rc0"
+obfstr = "0.3.0"
+rand = "0.8.5"

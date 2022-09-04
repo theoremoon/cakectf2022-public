@@ -1,0 +1,9 @@
+version: '3'
+services:
+  imagesurfing:
+    build: .
+    working_dir: /var/www/html
+    container_name: imagesurfing
+    ports:
+      - "8001:80"
+    restart: always

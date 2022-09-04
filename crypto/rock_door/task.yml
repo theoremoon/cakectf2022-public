@@ -1,0 +1,13 @@
+---
+name: Rock Door
+description: >
+  <p>If the Rock Door had verified the signature, Alibaba could have done nothing.</p>
+  <code>nc {host} {port}</code>
+flag: "CakeCTF{uum_hash_is_too_small_compared_to_modulus}"
+author: theoremoon
+host: crypto.2022.cakectf.com
+port: 10987
+tags:
+  - crypto
+  - lunatic
+is_survey: false

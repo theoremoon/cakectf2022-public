@@ -1,0 +1,10 @@
+---
+name: "Cake Memory"
+description: >
+  Welcome to Cake Memory.<br>
+  This advanced memory and cognitive recognition test is designed to stimulate several segments of the brain, allowing us to see how quickly and efficiently your brain works.
+flag: "CakeCTF{Do_you_have_Chromesthesia?}"
+author: ptr-yudai
+tags:
+  - cheat
+is_survey: false

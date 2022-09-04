@@ -1,0 +1,7 @@
+version: '3'
+services:
+  readme2022:
+    build: ./
+    ports:
+      - 12022:9999
+    restart: on-failure:10

@@ -1,0 +1,2 @@
+pyxel==1.7.2
+requests

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  csandbox:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: csandbox
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "10099:9999"
+    entrypoint: /etc/init.sh
+    restart: always

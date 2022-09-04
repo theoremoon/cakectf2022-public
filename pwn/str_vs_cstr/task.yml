@@ -1,0 +1,12 @@
+---
+name: "str.vs.cstr"
+description: >
+  <p>Which do you like, C string or C++ string?</p>
+  <code>nc {host} {port}</code>
+flag: "CakeCTF{HW1: Remove \"call_me\" and solve it / HW2: Set PIE+RELRO and solve it}"
+author: ptr-yudai
+host: pwn1.2022.cakectf.com
+port: 9003
+tags:
+  - pwn
+is_survey: false

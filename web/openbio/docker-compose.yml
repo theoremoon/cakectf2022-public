@@ -1,0 +1,26 @@
+version: '3'
+services:
+  challenge:
+    build: ./distfiles/service
+    ports:
+      - "8003:8080"
+    links:
+      - redis
+    environment:
+      - UWSGI_INI=/home/ctf/uwsgi.ini
+      - LISTEN_PORT=8080
+      - RECAPTCHA_KEY=XXXXXXXXXXXXXXXX
+    restart: always
+
+  crawler:
+    build: ./distfiles/crawler
+    links:
+      - challenge
+      - redis
+    environment:
+      - "flag=CakeCTF{httponly=true_d03s_n0t_pr0t3ct_U_1n_m4ny_c4s3s!}"
+    restart: always
+
+  redis:
+    build: ./distfiles/redis
+    restart: always

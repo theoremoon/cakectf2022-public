@@ -1,0 +1,12 @@
+---
+name: hi yoshiking
+description: >
+  <p>Hello, I prepared a special flag for yoshiking, not for you!</p>
+  <code>nc {host} {port}</code>
+flag: "CakeCTF{hi_yoshiking_lets_go_sushi}"
+author: theoremoon
+host: crypto.2022.cakectf.com
+port: 10333
+tags:
+  - crypto
+is_survey: false

@@ -1,0 +1,9 @@
+---
+name: "matsushima3"
+description: >
+  Are you a gambler?
+flag: "CakeCTF{INFAMOUS_LOGIC_BUG}"
+author: ptr-yudai
+tags:
+  - cheat
+is_survey: false

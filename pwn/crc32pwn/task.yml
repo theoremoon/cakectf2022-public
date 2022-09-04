@@ -1,0 +1,14 @@
+---
+name: "crc32pwn"
+description: >
+  <p>Privileged CRC32 Calculator!</p>
+  <code>nc {host} {port}</code><br>
+  <small>* There is a limit to the number of connections. Wait 5 minutes if you cannot connect.</small>
+flag: "CakeCTF{pr0c3ss1ng_f1l3s_w1th0ut_BUG_1s_sup3r_h4rd!}"
+author: ptr-yudai
+host: pwn2.2022.cakectf.com
+port: 9009
+tags:
+  - pwn
+  - lunatic
+is_survey: false

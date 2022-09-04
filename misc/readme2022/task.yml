@@ -1,0 +1,11 @@
+---
+name: readme 2022
+description: >
+  <code>nc {host} {port}</code>
+flag: "CakeCTF{~USER_r3f3rs_2_h0m3_d1r3ct0ry_0f_USER}"
+author: ptr-yudai
+host: misc.2022.cakectf.com
+port: 12022
+tags:
+  - misc
+is_survey: false

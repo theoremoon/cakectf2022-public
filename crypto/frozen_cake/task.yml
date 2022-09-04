@@ -1,0 +1,10 @@
+---
+name: frozen cake
+description: >
+  <p>oh your cake is frozen. please warm it up and get the first cake.</p>
+flag: "CakeCTF{oh_you_got_a_tepid_cake_sorry}"
+author: theoremoon
+tags:
+  - crypto
+  - warmup
+is_survey: false

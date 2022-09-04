@@ -1,0 +1,12 @@
+---
+name: ImageSurfing
+description: >
+  <p><a href="http://{host}:{port}/" target="_blank">bodega cat</a></p>
+flag: 'CakeCTF{PHP_f1lt3r_!s_cH40t1c\(^o^)/}'
+author: ptr-yudai
+host: web1.2022.cakectf.com
+port: 8001
+tags:
+  - web
+  - misc
+is_survey: false

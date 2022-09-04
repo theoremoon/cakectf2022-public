@@ -1,0 +1,15 @@
+service web
+{
+  disable     = no
+  socket_type = stream
+  protocol    = tcp
+  wait        = no
+  user        = kosenctfx
+  group       = docker
+  type        = UNLISTED	
+  bind        = 0.0.0.0
+  port        = 8002
+  server      = /home/kosenctfx/panda_memo/cake_chef.sh
+  per_source  = 2
+  rlimit_as   = 1024M
+}

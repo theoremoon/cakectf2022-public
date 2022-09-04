@@ -1,0 +1,11 @@
+---
+name: OpenBio
+description: >
+  <p>CSP + httponly = <a href="http://{host}:{port}/" target="_blank">invulnerable</a></p>
+flag: "CakeCTF{httponly=true_d03s_n0t_pr0t3ct_U_1n_m4ny_c4s3s!}"
+author: ptr-yudai
+host: web1.2022.cakectf.com
+port: 8003
+tags:
+  - web
+is_survey: false

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  cakegear:
+    build: .
+    working_dir: /var/www/html
+    container_name: cakegear
+    ports:
+      - "8005:80"
+    restart: always

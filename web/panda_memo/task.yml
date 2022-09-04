@@ -1,0 +1,14 @@
+---
+name: Panda Memo
+description: >
+  <p>Please create an isolated instance on the server below:</p>
+  <code>nc {host} {port}</code><br>
+  <small>* There is a limit to the number of instance creation. Wait 10 minutes if you cannot connect.</small>
+flag: "CakeCTF{pollute_and_p011u73_4nd_PoLLuTE!}"
+author: ptr-yudai
+host: web2.2022.cakectf.com
+port: 8002
+tags:
+  - web
+  - lunatic
+is_survey: false
